@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FF444444"> 
+      
+    <LinearLayout
+        android:id="@+id/graphViewLayou1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2.7"
+        android:background="#FF000000" >"
+        <com.jpl_347E.bio_sigapp.ShimmerGraphView
+            android:id="@+id/shimmerGraph"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" /> 
+          
+    </LinearLayout> 
+      
+    <LinearLayout
+        android:id="@+id/graphViewLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0.1pt"
+        android:layout_weight="0.5" 
+        android:background="#FF444444"> 
+          
+        <TextView 
+            android:id="@+id/labelSensor1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="0.1pt"
+            android:layout_weight="1"
+            android:background="#FF000000"
+            android:gravity="center"
+            android:text="@string/label_sensor_1"
+            android:textColor="#FF0000FF"
+            android:textSize="20sp"/> 
+          
+        <TextView 
+            android:id="@+id/labelSensor2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#FF000000"
+            android:gravity="center"
+            android:text="@string/label_sensor_2"
+            android:textColor="#FFFF0000"
+            android:textSize="20sp"/>       
+    </LinearLayout> 
+    <LinearLayout 
+        android:id="@+id/graphViewLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF444444"> 
+          
+        <TextView 
+            android:id="@+id/sensor_value1"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="0.1pt"
+            android:layout_weight="6"
+            android:background="#FF000000"
+            android:gravity="center"
+            android:text="@string/sensor_value"
+            android:textSize="20sp"/> 
+        <TextView 
+            android:id="@+id/sensor_value2"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:background="#FF000000"
+            android:gravity="center"
+            android:text="@string/sensor_value"
+            android:textSize="20sp"/>"
+          
+    </LinearLayout>    
+</LinearLayout> 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+ android:orientation="vertical"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ android:id="@+id/shimmerdialog"
+ xmlns:tools="http://schemas.android.com/tools"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+      
+ <TextView android:layout_height="wrap_content"
+     android:layout_width="248dp"
+     android:id="@+id/shimmerdialogtitle"
+     android:textStyle="bold" 
+     android:textSize="28sp"
+     android:layout_marginTop="20dp"
+     android:layout_marginLeft="48dp"/>"
+ 
+ <ListView
+     android:id="@+id/shimmerDialogOptions"
+     android:layout_width="278dp"
+     android:layout_height="240dp"
+     android:layout_marginLeft="15dp"
+     android:layout_marginTop="25dp" >
+     
+ </ListView>
+
+ <RadioButton
+     android:id="@+id/rbIsConnected"
+     android:layout_width="350dp"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="15dp"
+     android:layout_marginTop="10dp"
+     android:clickable="false"
+     android:textSize="20sp"
+     android:textStyle="bold" />
+
+ <RadioButton
+     android:id="@+id/rbIsStreaming"
+     android:layout_width="350dp"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="15dp"
+     android:layout_marginTop="15dp"
+     android:clickable="false"
+     android:textSize="20sp"
+     android:textStyle="bold" />
+
+ <RadioButton
+     android:id="@+id/rbIsLogging"
+     android:layout_width="350dp"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="15dp"
+     android:layout_marginTop="15dp"
+     android:clickable="false"
+     android:textSize="20sp"
+     android:textStyle="bold" />
+
+</LinearLayout>
+

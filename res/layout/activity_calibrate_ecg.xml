@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shimmercalibrate"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:minHeight="220dp"
+    android:minWidth="230dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/currentstep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="0dp"
+        android:text=""
+        android:gravity="top"
+        android:background="#666"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/currentinstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="40dp"
+        android:text=""
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+"
+
+    <Button
+        android:id="@+id/calibratebutton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=" Calibrate " />
+
+</LinearLayout>

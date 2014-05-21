@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" > 
+      
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_title1"
+        android:layout_marginTop="30dp" 
+        android:textSize="28sp"
+    /> 
+  
+    <ListView
+        android:id="@+id/deviceView1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight=".5"
+        android:layout_marginTop="20dp" 
+        android:layout_marginLeft="25dp"
+    /> 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_title2"
+        android:textSize="28sp"
+    /> 
+    <ListView
+        android:id="@+id/deviceView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight=".5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+    /> 
+      
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:id="@+id/showSubjectID"
+    /> 
+      
+    <ListView
+        android:id="@+id/subIDandExit"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight=".5"
+        android:layout_marginTop="20dp"
+    /> 
+</LinearLayout> 
